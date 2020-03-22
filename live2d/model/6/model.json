@@ -1,0 +1,65 @@
+{
+	"version": "Sample 1.0.0",
+	"id": "suomi",
+	"name": "suomi",
+	"model": "model.moc",
+	"textures": [
+	  "model.1024/texture_00.png"
+	],
+	"hit_areas": [
+	  {
+		"name": "head",
+		"id": "D_REF.HEAD"
+	  },
+	  {
+		"name": "body",
+		"id": "D_REF.BODY"
+	  }
+	],
+	"motions": {
+	  "idle": [
+		{
+		  "file": "motions/daiji_idle_01.mtn",
+		  "weight": 1
+		}
+	  ],
+	  "tap": [
+		{
+		  "file": "motions/broken_1.mtn",
+		  "weight": 1
+		},
+		{
+		  "file": "motions/broken_2.mtn",
+		  "weight": 1
+		},
+		{
+		  "file": "motions/broken_3.mtn",
+		  "weight": 1
+		},
+		{
+		  "file": "motions/broken_4.mtn",
+		  "weight": 1
+		},
+		{
+		  "file": "motions/broken_5.mtn",
+		  "weight": 1
+		}
+	  ],
+	  "tap_body": [
+		{
+		  "file": "motions/wait_1.mtn",
+		  "weight": 1
+		}
+	  ],
+	  "shake": [
+		{
+		  "file": "motions/shake.mtn",
+		  "weight": 1
+		}
+	  ]
+	},
+	"physics": "physics.json",
+	"lip_sync": "true",
+	"auto_breath": false,
+	"aniso_level": 4
+  }
