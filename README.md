@@ -24,7 +24,7 @@
 ## 简介 Introduction
 
 Live2D是一种应用于电子游戏的绘图渲染技术，技术由日本Cybernoids公司开发。通过一系列的连续图像和人物建模来生成一种类似三维模型的二维图像。live2d模型即适用于该技术的可供使用的模型，该模型适配于任何网站博客。</br>
-
+***
 Live2D is a graphic rendering technology used in video games developed by Cybernoids of Japan. A series of continuous images and character modeling are used to produce a two-dimensional image similar to a three-dimensional model. The live2d model is a usable model for the technology, and it is adapted to any website blog.</br>
 
 ## 分类 Classification
@@ -37,8 +37,7 @@ Live2D is a graphic rendering technology used in video games developed by Cybern
 - 3.内容打分：根据人物所含内容进行打分，含有暴力，色情等的-3，人物角色积极向上，阳光开朗的+1</br>
 - 4.音乐打分：人物含有语音的+3，不含语音的不做调整（此规则建立在3中未扣分的任务上）</br>
 - 5.后续内容将继续补充......</br>
-
-
+***
 The model is classified according to 1-8 grades, among which Grade 1 is the lowest and Grade 8 is the highest.</br>
 Base Score:</br>
 
@@ -58,16 +57,145 @@ Base Score:</br>
 ★★★★★★：42-49</br>
 ★★★★★★★：50-54</br>
 ★★★★★★★★：55</br>
+各人物可在[model文件夹](model/readme)查阅(preview)
 
-1-12∈1.0.0</br>
+## 食用方法（全局） usage(in all pages)
 
-13-  ∈
+### 安装 Installation
 
-## 食用方法 usage
+- 下载live2d文件夹
 
->详情见[Colorfulshadow-使用live2d模型](https://blog.oyi.me/live2d)，如果跑路，请联系 深海 （Colorfulshadow） colorfulshadowty@gmail.com
+- 在[model文件夹](model)中选出你喜欢的模型，将该模型下载到live2d文件夹中的model中
 
->For more information on [Colorfulshadow-使用live2d模型](https://blog.oyi.me/live2d), if it doesn't work ,please contact 深海 (Colorfulshadow) colorfulshadowty@gmail.com
+- 将该live2d文件夹上传到你的网站根目录中(/home/wwwroot/xxxx.com)
+***
+- Download live2d folder
+
+- Select your favorite model in the model folder and download it to the model in the live2d folder
+
+- Upload the live2d folder to the root of your website (/home/wwwroot/xxxx.com)
+
+### 使用 usage
+
+- 在你的网页的head标签内写入以下代码：(当然你也可以引用本地下载的)
+***
+- Write the following code in the head tab of your web page: (Of course you can also refer to locally downloaded)
+```
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/colorfulshadowty/live-2d/live2d/css/live2d.css" />
+```
+
+- 在你的footer标签结束前写入一下代码：
+***
+- Write the code before the end of your footer tag:
+
+```
+<div id="landlord" style="left:5px;bottom:0px;">
+    <div class="message" style="opacity:0"></div>
+    <canvas id="live2d" width="500" height="560" class="live2d"></canvas>;//部分模型不合适需要修改
+    <div class="live_talk_input_body">
+    	<div class="live_talk_input_name_body">
+        	<input name="name" type="text" class="live_talk_name white_input" id="AIuserName" autocomplete="off" placeholder="你的名字" />
+        </div>
+        <div class="live_talk_input_text_body">
+        	<input name="talk" type="text" class="live_talk_talk white_input" id="AIuserText" autocomplete="off" placeholder="要和我聊什么呀？"/>
+            <button type="button" class="live_talk_send_btn" id="talk_send">发送</button>
+        </div>
+    </div>
+    <input name="live_talk" id="live_talk" value="1" type="hidden" />
+    <div class="live_ico_box">
+    	<div class="live_ico_item type_info" id="showInfoBtn"></div>
+        <div class="live_ico_item type_talk" id="showTalkBtn"></div>
+        <!--<div class="live_ico_item type_huanzhuang" id="huanzhuangButton"></div>->;//很多（几乎全部model都没有，如果有需要，请删除div标签的注释）
+        <div class="live_ico_item type_music" id="musicButton"></div>
+        <div class="live_ico_item type_youdu" id="youduButton"></div>
+        <div class="live_ico_item type_quit" id="hideButton"></div>
+        <input name="live_statu_val" id="live_statu_val" value="0" type="hidden" />
+        <audio src="" style="display:none;" id="live2d_bgm" data-bgm="0" preload="none"></audio>
+        <input name="live2dBGM" value="https://cdn.jsdelivr.net/gh/colorfulshadowty1/music@1.0.0/3.mp3" type="hidden">
+        <input name="live2dBGM" value="ttps://cdn.jsdelivr.net/gh/colorfulshadowty1/music@1.0.0/4.mp3" type="hidden">;//此处需要请修改为自己的音乐，可添加多个
+        <input id="duType" value="douqilai,l2d_caihong" type="hidden">
+    </div>
+</div>
+<div id="open_live2d">召唤看板娘</div>
+<script type="text/javascript" src="https://apps.bdimg.com/libs/jquery/1.7.1/jquery.min.js"></script>
+<script>
+var message_Path = 'https://你的站点.com/live2d/';//资源目录，如果目录不对请更改
+var talkAPI = "";//图灵机器人的聊天接口路径（下方有介绍）(作者喜欢绝对路径,悄悄bb.jpg)
+</script>
+<script type="text/javascript" src="https://你的站点.com/live2d/js/live2d.js"></script>
+<script type="text/javascript" src="https://你的站点.com/live2d/js/message.js"></script>
+```
+### 修改 Modify
+
+请注意！！此model需要很多地方自行修改（作者技术一般做不好一键，有大佬的话帮帮忙QWQ）
+
+- live2d/message.json中，部分模型需修改第28行（可选，因为不太重要），Thezqy已经给出了详细的过程：[传送门](https://www.thezqy.top/archives/439)
+
+- live2d/js/message.js中，第449，471行需修改，已给出注释，可直接ctrl+F查找：此处需修改
+
+- body标签中[（即以上提到的）](#使用-usage)，给出注释的地方需要修改，可选是否使用换装按钮（前提是你的人物大多数都有换装）
+***
+Please note!! This model needs a lot of places to modify their own (the author's technology generally does not do a good one button, there are big guys to help QWQ)
+
+- Live2d/message.json, part of the model needs to be modified in line 28 (optional, because it is not very important), Thezqy has given a detailed process: [Transfer door](https://www.thezqy.top/archives/439)
+
+- Live2d/js/message.js, line 449,471 to be modified, commented, can be found directly ctrl-F: here to be modified
+
+- Body labels ,[The above mentioned](#使用-usage), where the comments need to be made, and whether to use the change button (provided that most of your characters have a change dress)
+
+### 扩展 Extended
+
+- 如何使用机器人聊天功能
+
+- 为了让live2d能够聊天，我们可以借助图灵机器人，先去[图灵机器人官网](http://www.turingapi.com/)注册账号，新建机器人获取apikey
+
+- 新建一个tlapi.php文件，加入如下代码，注意添加自己的apikey到里面
+***
+- How to use the bot chat feature
+
+- In order to allow live2d to chat, we can use Turing Robot to first go to the website of [Turing Robotics](http://www.turingapi.com/) to register an account and create a new robot to get apikey
+
+- Create a new tlapi.php file, add the following code, pay attention to adding your own apikey to it
+```
+<?php
+//获得聊天
+$appkey = ''; //你的appkey
+$talkContent = ""; 
+$info=addslashes($_POST['info']);
+$userid=addslashes($_POST['userid']);
+function send_post($url, $post_data) {  
+  
+  $postdata = http_build_query($post_data);  
+  $options = array(  
+    'http' => array(  
+      'method' => 'POST',  
+      'header' => 'Content-type:application/x-www-form-urlencoded',  
+      'content' => $postdata,  
+      'timeout' => 15 * 60 // 超时时间（单位:s）  
+    )  
+  );  
+  $context = stream_context_create($options);  
+  $result = file_get_contents($url, false, $context);  
+  
+  return $result;  
+}  
+  
+//使用方法  
+$post_data = array(  
+  'key' => $appkey,  
+  'info' => $info,
+  'userid' => $userid,
+);
+if($appkey==""){
+  $talkContent = '{"code":"500","text":"我还没学会聊天功能，快和站长联系吧！"}';
+}
+else{
+  $talkContent = send_post('http://www.tuling123.com/openapi/api', $post_data);
+}
+header('Content-type:text/json');
+echo $talkContent;
+?>
+```
 
 ## 演示 Demo
 

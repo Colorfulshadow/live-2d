@@ -1,0 +1,115 @@
+{
+  "name": "model",
+  "model": "model.moc",
+  "textures": [
+    "model.1024/texture_00.png"
+  ],
+  "hit_areas": [
+    {
+      "name": "D_REF.BODY",
+      "id": "D_REF.BODY"
+    },
+    {
+      "name": "D_REF.HEAD",
+      "id": "D_REF.HEAD"
+    }
+  ],
+  "motions": {
+    "tap_D_REF.BODY": [
+      {
+        "file": "motions/anger.mtn",
+        "sound": "voice/001.wav",
+        "weight": 1
+      },
+      {
+        "file": "motions/anger_loop.mtn",
+        "sound": "voice/002.wav",
+        "weight": 1
+      },
+      {
+        "file": "motions/blues.mtn",
+        "sound": "voice/003.wav",
+        "weight": 1
+      },
+      {
+        "file": "motions/blues_loop.mtn",
+        "sound": "voice/003.wav",
+        "weight": 1
+      },
+      {
+        "file": "motions/cutin.mtn",
+        "sound": "voice/004.wav",
+        "weight": 1
+      },
+      {
+        "file": "motions/ease.mtn",
+        "sound": "voice/005.wav",
+        "weight": 1
+      },
+      {
+        "file": "motions/ease_loop.mtn",
+        "sound": "voice/007.wav",
+        "weight": 1
+      },
+      {
+        "file": "motions/joy_loop.mtn",
+        "sound": "voice/013.wav",
+        "weight": 1
+      },
+      {
+        "file": "motions/elapse.mtn",
+        "sound": "voice/014.wav",
+        "weight": 1
+      },
+      {
+        "file": "motions/joy.mtn", 
+        "sound": "voice/015.wav",
+        "weight": 1
+      },
+      {
+        "file": "motions/ease_loop.mtn",
+        "sound": "voice/016.wav",
+        "weight": 1
+      },
+      {
+        "file": "motions/cutin.mtn",
+        "sound": "voice/017.wav",
+        "weight": 1
+      },
+      {
+        "file": "motions/blues_loop.mtn",
+        "sound": "voice/018.wav",
+        "weight": 1
+      },
+      {
+        "file": "motions/blues.mtn",
+        "sound": "voice/004.wav",
+        "weight": 1
+      }
+    ],
+    "tap_D_REF.HEAD": [
+      {
+        "file": "motions/tap1.mtn",
+        "sound": "voice/015.wav",
+        "weight": 1
+      },
+      {
+        "file": "motions/tap2.mtn",
+        "sound": "voice/018.wav",
+        "weight": 1
+      },
+      {
+        "file": "motions/tap3.mtn",
+        "sound": "voice/005.wav",
+        "weight": 1
+      }
+    ],
+    "idle": [
+      {
+        "file": "motions/loop.mtn",
+        "sound": "voice/007.wav",
+        "weight": 1
+      }
+    ]
+  }
+}

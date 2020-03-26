@@ -1,0 +1,1 @@
+![snapshot](https://cdn.jsdelivr.net/gh/colorfulshadowty/live2dpre-view@1.0/73.png)
