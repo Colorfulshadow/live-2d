@@ -139,7 +139,7 @@ Please note!! This model needs a lot of places to modify their own (the author's
 
 - Live2d/message.json, part of the model needs to be modified in line 28 (optional, because it is not very important), Thezqy has given a detailed process: [Transfer door](https://www.thezqy.top/archives/439)
 
-- Live2d/js/message.js, line 449,471 to be modified, commented, can be found directly ctrl-F: here to be modified
+- Live2d/js/message.js, line 449,471 to be modified, commented, can be found directly ctrl-F: 此处需修改
 
 - Body labels ,[The above mentioned](#使用-usage), where the comments need to be made, and whether to use the change button (provided that most of your characters have a change dress)
 
