@@ -233,7 +233,7 @@ Uncaught DOMException: Failed to execute 'texImage2D' on 'WebGLRenderingContext'
 经我查询问题出现在:在一般情况下，禁止将跨域元素用作 WebGL 纹理的强制子句</br>
 
 这个问题暂时我无力解决，但是将会摸索解决方法，也希望看到此live2d的朋友能够给出一些建议，共同修复此问题。</br>
-
+***
 In fact, I've tried to directly reference resources on GitHub to reduce live2d's use of my system space, and unfortunately, if you load by reference, the browser will make the following errors:</br>
 ```
 Uncaught DOMException: Failed to 'texImage2D' on 'WebGLContextRendering': The image element contains cross-origin data, and may not be loaded.
@@ -246,7 +246,7 @@ This problem is not able to solve for the time being, but will explore solutions
 ### 2 关于更多的live2d模型 About more models
 
 虽然我们已经从[Eikanya](https://github.com/Eikanya)处获得了部分模型，但是仍有部分因为格式不对所放弃的部分模型，后段时间我们将会对格式为.moc3的模型进行修改完善，及时发布在此Github上。</br>
-
+***
 Although we've already got some models from [Eikanya](https://github.com/Eikanya), there's still some of the models that are not discarded because the format isn't in place, and we'll be able to modify and refine the models for .moc3 later and release it on github in time.</br>
 
 ## 许可证 License
