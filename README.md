@@ -257,6 +257,10 @@ Although we've already got some models from [Eikanya](https://github.com/Eikanya
 
 ## 修改日志 Modifying logging
 ***
+>1.0.3
+- 2020.3.27 15:04</br>
+修改live2d.js，改为完整版
+***
 >1.0.2
 - 2020.3.27 8：45</br>
 修补message.js</br>
