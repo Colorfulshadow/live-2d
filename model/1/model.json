@@ -12,6 +12,10 @@
     {
       "name": "D_REF.HEAD",
       "id": "D_REF.HEAD"
+    },
+    {
+      "name": "D_REF.LEG",
+      "id": "D_REF.LEG"
     }
   ],
   "motions": {

@@ -20,6 +20,7 @@
 - [贡献者 Contributing](#贡献者-contributing)
 - [问题 problem](#问题-problem)
 - [许可证 License](#许可证-license)
+- [修改日志 Modifying logging](#修改日志-Modifying-logging)
 
 ## 简介 Introduction
 
@@ -253,3 +254,14 @@ Although we've already got some models from [Eikanya](https://github.com/Eikanya
 
 [![license](https://img.shields.io/badge/License-GPLv3-orange.svg)](LICENSE)</br>
 [Live2d License © Colorfulshadow](LICENSE)
+
+## 修改日志 Modifying logging
+***
+>1.0.2
+- 2020.3.27 8：45</br>
+修补message.js</br>
+检查所有model.json，修补3处漏洞
+***
+>1.0.1
+- 2020.3.20 - 2020.3.26 22：46</br>
+修改版本样式，使用手动安装的方式

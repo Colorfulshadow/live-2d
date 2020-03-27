@@ -64,7 +64,7 @@
 		  "file": "motions/shake.mtn",
 		  "weight": 1
 		}
-	  ],
+	  ]
 	},
 	"physics": "physics.json",
 	"lip_sync": "true",

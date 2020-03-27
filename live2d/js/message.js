@@ -446,7 +446,7 @@ if(!norunFlag){
 	}
 	$(document).ready(function() {
 		var AIimgSrc = [
-			message_Path + "model/____（标号）/model.1024（可能有变动）/texture_00.png",//此处需修改
+			message_Path + "model/___/model.1024/texture_00.png",//此处需修改
 		]
 		var images = [];
 		var imgLength = AIimgSrc.length;
@@ -468,7 +468,7 @@ if(!norunFlag){
 						},1300);
 					}
 					setTimeout(function(){
-						loadlive2d("live2d", message_Path+"model/_______（标号）/model.json");//此处需修改
+						loadlive2d("live2d", message_Path + "model/___/model.json");//此处需修改
 					},1000);
 					initLive2d ();
 					images = null;
