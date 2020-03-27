@@ -85,9 +85,9 @@ Base Score:</br>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/colorfulshadowty/live-2d/live2d/css/live2d.css" />
 ```
 
-- 在你的footer标签结束前写入一下代码：
+- 在你的body标签结束前写入一下代码：
 ***
-- Write the code before the end of your footer tag:
+- Write the code before the end of your body tag:
 
 ```
 <div id="landlord" style="left:5px;bottom:0px;">
@@ -140,7 +140,7 @@ Please note!! This model needs a lot of places to modify their own (the author's
 
 - Live2d/message.json, part of the model needs to be modified in line 28 (optional, because it is not very important), Thezqy has given a detailed process: [Transfer door](https://www.thezqy.top/archives/439)
 
-- Live2d/js/message.js, line 449,471 to be modified, commented, can be found directly ctrl-F: here to be modified
+- Live2d/js/message.js, line 449,471 to be modified, commented, can be found directly ctrl-F: 此处需修改
 
 - Body labels ,[The above mentioned](#使用-usage), where the comments need to be made, and whether to use the change button (provided that most of your characters have a change dress)
 
@@ -234,7 +234,7 @@ Uncaught DOMException: Failed to execute 'texImage2D' on 'WebGLRenderingContext'
 经我查询问题出现在:在一般情况下，禁止将跨域元素用作 WebGL 纹理的强制子句</br>
 
 这个问题暂时我无力解决，但是将会摸索解决方法，也希望看到此live2d的朋友能够给出一些建议，共同修复此问题。</br>
-
+***
 In fact, I've tried to directly reference resources on GitHub to reduce live2d's use of my system space, and unfortunately, if you load by reference, the browser will make the following errors:</br>
 ```
 Uncaught DOMException: Failed to 'texImage2D' on 'WebGLContextRendering': The image element contains cross-origin data, and may not be loaded.
@@ -247,7 +247,7 @@ This problem is not able to solve for the time being, but will explore solutions
 ### 2 关于更多的live2d模型 About more models
 
 虽然我们已经从[Eikanya](https://github.com/Eikanya)处获得了部分模型，但是仍有部分因为格式不对所放弃的部分模型，后段时间我们将会对格式为.moc3的模型进行修改完善，及时发布在此Github上。</br>
-
+***
 Although we've already got some models from [Eikanya](https://github.com/Eikanya), there's still some of the models that are not discarded because the format isn't in place, and we'll be able to modify and refine the models for .moc3 later and release it on github in time.</br>
 
 ## 许可证 License
