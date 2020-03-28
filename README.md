@@ -85,7 +85,7 @@ Base Score:</br>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/colorfulshadowty/live-2d/live2d/css/live2d.css" />
 ```
 
-- 在你的body标签结束前写入一下代码：
+- 在你的body标签结束前写入以下代码：
 ***
 - Write the code before the end of your body tag:
 
