@@ -15,7 +15,7 @@
 
 - [简介 Introduction](#简介-Introduction)
 - [分类 Classification](#分类-Classification)
-- [食用方法 usage](#食用方法(全局)-usage(in all pages))
+- [食用方法 usage](#食用方法-usage)
 - [演示 Demo](#演示-Demo)
 - [贡献者 Contributing](#贡献者-contributing)
 - [问题 problem](#问题-problem)
@@ -60,7 +60,7 @@ Base Score:</br>
 ★★★★★★★★：55</br>
 各人物可在[model文件夹](model/readme)查阅(preview)
 
-## 食用方法(全局) usage(in all pages)
+## 食用方法 usage
 
 ### 安装 Installation
 
