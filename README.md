@@ -106,14 +106,14 @@ Base Score:</br>
     <div class="live_ico_box">
     	<div class="live_ico_item type_info" id="showInfoBtn"></div>
         <div class="live_ico_item type_talk" id="showTalkBtn"></div>
-        <!--<div class="live_ico_item type_huanzhuang" id="huanzhuangButton"></div> -->;//很多（几乎全部model都没有，如果有需要，请删除div标签的注释）
+        <!--<div class="live_ico_item type_huanzhuang" id="huanzhuangButton"></div> -->
         <div class="live_ico_item type_music" id="musicButton"></div>
         <div class="live_ico_item type_youdu" id="youduButton"></div>
         <div class="live_ico_item type_quit" id="hideButton"></div>
         <input name="live_statu_val" id="live_statu_val" value="0" type="hidden" />
         <audio src="" style="display:none;" id="live2d_bgm" data-bgm="0" preload="none"></audio>
         <input name="live2dBGM" value="https://cdn.jsdelivr.net/gh/colorfulshadowty1/music@1.0.0/3.mp3" type="hidden">
-        <input name="live2dBGM" value="https://cdn.jsdelivr.net/gh/colorfulshadowty1/music@1.0.0/4.mp3" type="hidden">;//此处需要请修改为自己的音乐，可添加多个
+        <input name="live2dBGM" value="https://cdn.jsdelivr.net/gh/colorfulshadowty1/music@1.0.0/4.mp3" type="hidden">
         <input id="duType" value="douqilai,l2d_caihong" type="hidden">
     </div>
 </div>
