@@ -15,7 +15,7 @@
 
 - [简介 Introduction](#简介-Introduction)
 - [分类 Classification](#分类-Classification)
-- [食用方法 usage](#食用方法{全局)-usage(in all pages))
+- [食用方法 usage](#食用方法(全局)-usage(in all pages))
 - [演示 Demo](#演示-Demo)
 - [贡献者 Contributing](#贡献者-contributing)
 - [问题 problem](#问题-problem)
