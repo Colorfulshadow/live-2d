@@ -3,11 +3,11 @@
 
 >Fast , practical
 
-[![作者](https://img.shields.io/badge/作者-Colorfulshadowty-blue.svg)](https://github.com/colorfulshadowty)
+[![作者](https://img.shields.io/badge/作者-Colorfulshadow-blue.svg)](https://github.com/colorfulshadow)
 [![许可证](https://img.shields.io/badge/许可证-GPLv3-orange.svg)](LICENSE)
 ![版本](https://img.shields.io/badge/版本-1.0.0-green.svg)
 
-[![author](https://img.shields.io/badge/Author-Colorfulshadowty-blue.svg)](https://github.com/colorfulshadowty)
+[![author](https://img.shields.io/badge/Author-Colorfulshadow-blue.svg)](https://github.com/colorfulshadow)
 [![license](https://img.shields.io/badge/License-GPLv3-orange.svg)](LICENSE)
 ![version](https://img.shields.io/badge/Version-1.0.0-green.svg)
 
@@ -82,7 +82,7 @@ Base Score:</br>
 ***
 - Write the following code in the head tab of your web page: (Of course you can also refer to locally downloaded)
 ```
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/colorfulshadowty/live-2d/live2d/css/live2d.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/colorfulshadow/live-2d/live2d/css/live2d.css" />
 ```
 
 - 在你的body标签结束前写入以下代码：
@@ -205,7 +205,7 @@ echo $talkContent;
 
 ## 贡献者 Contributing
 
->[深海(Colorfulshadowty)](https://github.com/colorfulshadowty)
+>[深海(Colorfulshadow)](https://github.com/colorfulshadow)
 
 组织，整理，补充，修复</br>
 
@@ -229,7 +229,7 @@ sift ,replenish
 事实上，我已经尝试过直接引用GitHub上的资源以减少live2d对我系统空间的占用，不幸的是，如果通过引用加载，浏览器会出现以下报错：</br>
 ```
 Uncaught DOMException: Failed to execute 'texImage2D' on 'WebGLRenderingContext': The image element contains cross-origin data, and may not be loaded.
-    at Image.n.onload (https://cdn.jsdelivr.net/gh/colorfulshadowty/live2d-model@test4/live2d/js/live2d.js:1:138590)
+    at Image.n.onload (https://cdn.jsdelivr.net/gh/colorfulshadow/live2d-model@test4/live2d/js/live2d.js:1:138590)
 ```
 经我查询问题出现在:在一般情况下，禁止将跨域元素用作 WebGL 纹理的强制子句</br>
 
@@ -238,7 +238,7 @@ Uncaught DOMException: Failed to execute 'texImage2D' on 'WebGLRenderingContext'
 In fact, I've tried to directly reference resources on GitHub to reduce live2d's use of my system space, and unfortunately, if you load by reference, the browser will make the following errors:</br>
 ```
 Uncaught DOMException: Failed to 'texImage2D' on 'WebGLContextRendering': The image element contains cross-origin data, and may not be loaded.
-    at Image.n.onload (https://cdn.jsdelivr.net/gh/colorfulshadowty/live2d-model@test4/live2d/js/live2d.js: 1:1:138590)
+    at Image.n.onload (https://cdn.jsdelivr.net/gh/colorfulshadow/live2d-model@test4/live2d/js/live2d.js: 1:1:138590)
 ```
 The question I've queried appears: In general, cross-domain elements are prohibited as mandatory clauses for WebGL textures</br>
 
